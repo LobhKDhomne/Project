@@ -17,7 +17,7 @@
   z-index: 2; }
 
 .timeline-body {
-  border-left: 2px solid #E6E9ED; }
+  border-left: 2px solid #000000; }
 
 .timeline-card-primary:before {
   border-color: var(--bs-primary); }
@@ -57,7 +57,7 @@ html, body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: inherit;
+  color:#8783D1;
   opacity: 1; }
 
 .nav-item + .nav-item {
@@ -75,6 +75,7 @@ html, body {
 .progress-bar {
   text-transform: uppercase;
   font-size: 10px;
+  color: #000000;
   letter-spacing: 1px; }
 
 .text-small {
