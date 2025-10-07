@@ -29,7 +29,7 @@
   border-color: var(--bs-secondary); }
 
 .timeline-card-success:before {
-  border-color: var(--bs-teal); }
+  border-color: #39c0ed !important; }
 
 html {
   scroll-behavior: smooth; }
@@ -75,9 +75,14 @@ html, body {
 .progress-bar {
   text-transform: uppercase;
   font-size: 10px;
-  color: #000000;
+  color: #ffffff;
   letter-spacing: 1px; }
+.progress-bar bg-info {
+  background-color: var(--bs-atul);
+}
+ 
 
+.progress-bar
 .text-small {
   font-size: 0.85rem; }
 
@@ -143,3 +148,6 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+.progress-bar{
+  background-color: #000000 !important;
+}
