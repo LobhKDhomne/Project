@@ -102,7 +102,7 @@ footer a:not(.nav-link) {
     float: right; } }
 
 @media (max-width: 767px) {
-  /* disable animations on mobile */
+  
   [data-aos] {
     opacity: 1 !important;
     transform: translate(0) scale(1) !important; }
